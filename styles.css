@@ -30,3 +30,22 @@ body {
     font-size: 20px;
     margin: 5px 0px;
 }
+
+button {
+    background: #10B981;
+    color: inherit;
+    font-family: inherit;
+    font-size: 20px;
+    outline: none;
+    border: 1px solid #10B981;
+    border-radius: 5px;
+    padding: 6px 10px;
+    margin: 35px 0px 20px 0px;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+button:hover {
+    border: 1px solid #10B981;
+    background: none;
+}
