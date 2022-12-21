@@ -19,3 +19,14 @@ body {
 .content__container {
     margin: 30px 40px 0px;
 }
+
+.primary__heading {
+    font-size: 35px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.secondry__heading {
+    font-size: 20px;
+    margin: 5px 0px;
+}
