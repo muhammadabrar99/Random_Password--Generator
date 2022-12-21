@@ -49,3 +49,22 @@ button:hover {
     border: 1px solid #10B981;
     background: none;
 }
+
+.pass__field{
+    display: block;
+    height: 30px;
+    color: #10B981;
+    font-size: 17px;
+    border-bottom: 2px solid gray;
+    padding: 10px 0px 0px 20px;
+    margin: 15px 0;
+    cursor: pointer;
+}
+
+
+@media (max-width: 450px) {
+    .container{
+        width: 400px;
+        height: 500px;
+    }
+}
