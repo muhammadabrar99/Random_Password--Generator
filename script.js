@@ -3,21 +3,25 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 
 let passOneEl = document.querySelector("#pass1");
 let passTwoEl = document.querySelector("#pass2");
-let btnEl = document.getElementById('btn')
+let btnEl = document.querySelector('#btn')
 
 const generatePass = () =>{
     let storingPassOne = [];
     let storingPassTwo = [];
 
-    for(let i = 0; i<= 10; i++){
+    for(let i = 0; i<= 15; i++){
         let passOne = Math.floor(Math.random() * characters.length);
         storingPassOne += characters[passOne];
     }
 
-    for(let i = 0; i<= 10; i++){
+    for(let i = 0; i<= 15; i++){
         let passTwo = Math.floor(Math.random() * characters.length);
         storingPassTwo += characters[passTwo];
     }
+
+    passOneEl.textContent = storingPassOne
+    passTwoEl.textContent = storingPassTwo
+    btnEl.textContent = "ReGenerate Passwords"
 }
 
 btnEl.addEventListener('click', ()=>{
