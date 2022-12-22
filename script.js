@@ -19,3 +19,7 @@ const generatePass = () =>{
         storingPassTwo += characters[passTwo];
     }
 }
+
+btnEl.addEventListener('click', ()=>{
+    
+})
