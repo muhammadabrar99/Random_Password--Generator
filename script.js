@@ -2,3 +2,4 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 "/"];
 
 let passOneEl = document.querySelector("#pass1");
+let passTwoEl = document.querySelector("#pass2");
