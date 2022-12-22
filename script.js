@@ -11,5 +11,10 @@ const generatePass = () =>{
 
     for(let i = 0; i<= 10; i++){
         let passOne = Math.floor(Math.random() * characters.length);
+        storingPassOne += characters[passOne]
+    }
+
+    for(let i = 0; i<= 10; i++){
+        
     }
 }
