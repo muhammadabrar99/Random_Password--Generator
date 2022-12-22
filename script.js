@@ -21,5 +21,5 @@ const generatePass = () =>{
 }
 
 btnEl.addEventListener('click', ()=>{
-    
+    generatePass()
 })
