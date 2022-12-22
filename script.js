@@ -8,4 +8,8 @@ let btnEl = document.getElementById('btn')
 const generatePass = () =>{
     let storingPassOne = [];
     let storingPassTwo = [];
+
+    for(let i = 0; i<= 10; i++){
+        let passOne = Math.floor(Math.random() * characters.length);
+    }
 }
